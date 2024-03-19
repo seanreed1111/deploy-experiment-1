@@ -7,7 +7,7 @@ from langchain.schema import ChatMessage
 # from langchain_openai import ChatOpenAI
 from langchain_community.chat_models.azure_openai import AzureChatOpenAI #deprecated class, fix later
 import streamlit as st
-
+st.set_option('server.enableCORS', True)
 LANGCHAIN_PROJECT = "Deploy #1: Chat with Azure OpenAI"
 st.set_page_config(page_title=LANGCHAIN_PROJECT, page_icon="")
 st.title(LANGCHAIN_PROJECT)
