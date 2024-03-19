@@ -1,0 +1,1 @@
+streamlit run app.py --server.enableCORS false --browser.serverAddress 0.0.0.0 --server.port 8501
